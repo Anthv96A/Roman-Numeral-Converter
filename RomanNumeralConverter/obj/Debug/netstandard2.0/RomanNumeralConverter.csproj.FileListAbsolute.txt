@@ -1,0 +1,9 @@
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\netstandard2.0\RomanNumeralConverter.deps.json
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\netstandard2.0\RomanNumeralConverter.dll
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\netstandard2.0\RomanNumeralConverter.pdb
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\netstandard2.0\RomanNumeralConverter.csprojAssemblyReference.cache
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\netstandard2.0\RomanNumeralConverter.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\netstandard2.0\RomanNumeralConverter.AssemblyInfoInputs.cache
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\netstandard2.0\RomanNumeralConverter.AssemblyInfo.cs
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\netstandard2.0\RomanNumeralConverter.dll
+C:\Users\Anthony\source\repos\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\netstandard2.0\RomanNumeralConverter.pdb
