@@ -16,7 +16,7 @@ namespace RomanNumeralConverter.Tests
             var input = 1;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "I"
@@ -30,7 +30,7 @@ namespace RomanNumeralConverter.Tests
             var input = 2;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "II"
@@ -44,7 +44,7 @@ namespace RomanNumeralConverter.Tests
             var input = 3;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "III"
@@ -58,7 +58,7 @@ namespace RomanNumeralConverter.Tests
             var input = 4;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "IV"
@@ -72,7 +72,7 @@ namespace RomanNumeralConverter.Tests
             var input = 5;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "V"
@@ -86,7 +86,7 @@ namespace RomanNumeralConverter.Tests
             var input = 6;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "VI"
@@ -101,7 +101,7 @@ namespace RomanNumeralConverter.Tests
             var input = 7;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "VII"
@@ -115,7 +115,7 @@ namespace RomanNumeralConverter.Tests
             var input = 8;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "VIII"
@@ -129,7 +129,7 @@ namespace RomanNumeralConverter.Tests
             var input = 9;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "IX"
@@ -143,7 +143,7 @@ namespace RomanNumeralConverter.Tests
             var input = 10;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "X"
@@ -157,7 +157,7 @@ namespace RomanNumeralConverter.Tests
             var input = 11;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XI"
@@ -171,7 +171,7 @@ namespace RomanNumeralConverter.Tests
             var input = 12;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XII"
@@ -185,7 +185,7 @@ namespace RomanNumeralConverter.Tests
             var input = 14;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XIV"
@@ -200,7 +200,7 @@ namespace RomanNumeralConverter.Tests
             var input = 15;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XV"
@@ -214,7 +214,7 @@ namespace RomanNumeralConverter.Tests
             var input = 19;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XIX"
@@ -228,7 +228,7 @@ namespace RomanNumeralConverter.Tests
             var input = 20;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XX"
@@ -243,7 +243,7 @@ namespace RomanNumeralConverter.Tests
             var input = 24;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XXIV"
@@ -257,7 +257,7 @@ namespace RomanNumeralConverter.Tests
             var input = 29;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XXIX"
@@ -271,7 +271,7 @@ namespace RomanNumeralConverter.Tests
             var input = 30;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XXX"
@@ -286,7 +286,7 @@ namespace RomanNumeralConverter.Tests
             var input = 35;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XXXV"
@@ -301,7 +301,7 @@ namespace RomanNumeralConverter.Tests
             var input = 39;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XXXIX"
@@ -315,7 +315,7 @@ namespace RomanNumeralConverter.Tests
             var input = 40;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XL"
@@ -329,7 +329,7 @@ namespace RomanNumeralConverter.Tests
             var input = 41;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XLI"
@@ -343,7 +343,7 @@ namespace RomanNumeralConverter.Tests
             var input = 44;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XLIV"
@@ -357,7 +357,7 @@ namespace RomanNumeralConverter.Tests
             var input = 50;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "L"
@@ -371,7 +371,7 @@ namespace RomanNumeralConverter.Tests
             var input = 60;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "LX"
@@ -385,7 +385,7 @@ namespace RomanNumeralConverter.Tests
             var input = 70;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "LXX"
@@ -399,7 +399,7 @@ namespace RomanNumeralConverter.Tests
             var input = 90;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "XC"
@@ -413,7 +413,7 @@ namespace RomanNumeralConverter.Tests
             var input = 100;
 
             // When I pass the value into the Roman Numeral converter
-            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral(new ComputeValue(new NumberDictionary()));
+            IConvertRomanNumeral convertRomanNumeral = new ConvertRomanNumeral();
             string result = convertRomanNumeral.ConvertNumberToNumeral(input);
 
             // Then I expect the value returned is "C"
